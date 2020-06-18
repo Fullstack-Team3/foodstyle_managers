@@ -1,0 +1,14 @@
+[
+	{
+		id:1,
+		restaurant_name: 'KFC',
+		address: 'xxxxxxxx',
+		telphone: 7202872345
+	},
+	{
+		id:2,
+		restaurant_name: 'Yummy Spicy',
+		address: 'xxxxxxxx',
+		telphone: 7202872345
+	}
+]

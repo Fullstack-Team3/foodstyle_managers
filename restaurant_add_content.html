@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="EN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Add New Restaurant</title>
+
+    <link href="dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <script src="dist/js/jquery-2.1.0.min.js"></script>
+    
+    <script src="dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container">
+    <center><h3>Add New Restaurant</h3></center>
+    <form action="" method="post">
+        <div class="form-group">
+            <label for="name">Name：</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Please input the name of the restaurant">
+        </div>
+		<div class="form-group">
+		    <label for="address">Address：</label>
+		    <input type="text" class="form-control" id="address" name="address" placeholder="Please input the address of the restaurant"/>
+		</div>
+
+        <div class="form-group">
+            <label for="opentime">Open-Close Time：</label>
+            <input type="text" class="form-control" id="opentime" name="opentime" placeholder="Please input the Open-Close time">
+        </div>
+
+		<div class="form-group">
+			<label for="category">Category：</label>
+			<select name="category" class="form-control" id="category">
+				<option value="">Please select the category</option>
+				<option value="American Restaurant">American Restaurant</option>
+				<option value="Chinese Restaurant">Chinese Restaurant</option>
+				<option value="Indian Restaurant">Indian Restaurant</option>
+			</select>
+		</div>
+		
+		<div class="form-group">
+		    <label for="photo">Photo：</label>
+		    <input type="text" class="form-control" id="photo" name="photo" placeholder="Please input the photo link"/>
+		</div>
+
+        <div class="form-group">
+            <label for="phone">Telphone：</label>
+            <input type="text" class="form-control" id="phone" name="phone" placeholder="Please input the phone number"/>
+        </div>
+
+        <div class="form-group" style="text-align: center">
+            <input class="btn btn-primary" type="submit" value="Summit" />
+            <input class="btn btn-default" type="reset" value="Reset" />
+            <input class="btn btn-default" type="button" value="Back" />
+        </div>
+    </form>
+</div>
+</body>
+</html>
